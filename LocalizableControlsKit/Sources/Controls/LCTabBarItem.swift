@@ -1,6 +1,6 @@
 import UIKit
 
-open class LocalizedTabBarItem: UITabBarItem {
+open class LCTabBarItem: UITabBarItem {
     
     // MARK: - Properties
     
