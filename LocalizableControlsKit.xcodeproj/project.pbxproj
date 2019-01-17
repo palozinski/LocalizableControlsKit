@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540C2730683AB32CD9BC89A3 /* Pods_LocalizableControlsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACD3798C14733F279C49F17 /* Pods_LocalizableControlsKit.framework */; };
+		D004DD5CC6A0234ED98A1E02 /* Pods_LocalizableControlsKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5B74EE10F5B062075DFA5 /* Pods_LocalizableControlsKitTests.framework */; };
 		DC8CBB8D21F102FD00D9575C /* LocalizableControlsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8CBB8321F102FC00D9575C /* LocalizableControlsKit.framework */; };
 		DC8CBB9221F102FD00D9575C /* LocalizableControlsKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBB9121F102FD00D9575C /* LocalizableControlsKitTests.swift */; };
 		DC8CBB9421F102FD00D9575C /* LocalizableControlsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8CBB8621F102FC00D9575C /* LocalizableControlsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A5B74EE10F5B062075DFA5 /* Pods_LocalizableControlsKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizableControlsKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18461D41ED7CE0E5EE491D7C /* Pods-LocalizableControlsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizableControlsKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizableControlsKit/Pods-LocalizableControlsKit.debug.xcconfig"; sourceTree = "<group>"; };
+		380469A2480C001047A6E0D7 /* Pods-LocalizableControlsKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizableControlsKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizableControlsKitTests/Pods-LocalizableControlsKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CD7A192F34EDECA67B38B43 /* Pods-LocalizableControlsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizableControlsKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizableControlsKit/Pods-LocalizableControlsKit.release.xcconfig"; sourceTree = "<group>"; };
+		9F47FBAA0320331CA7C241CB /* Pods-LocalizableControlsKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizableControlsKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizableControlsKitTests/Pods-LocalizableControlsKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DACD3798C14733F279C49F17 /* Pods_LocalizableControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizableControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8CBB8321F102FC00D9575C /* LocalizableControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizableControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8CBB8621F102FC00D9575C /* LocalizableControlsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizableControlsKit.h; sourceTree = "<group>"; };
 		DC8CBB8721F102FC00D9575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540C2730683AB32CD9BC89A3 /* Pods_LocalizableControlsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC8CBB8D21F102FD00D9575C /* LocalizableControlsKit.framework in Frameworks */,
+				D004DD5CC6A0234ED98A1E02 /* Pods_LocalizableControlsKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3400F315F131B56D12262A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18461D41ED7CE0E5EE491D7C /* Pods-LocalizableControlsKit.debug.xcconfig */,
+				7CD7A192F34EDECA67B38B43 /* Pods-LocalizableControlsKit.release.xcconfig */,
+				9F47FBAA0320331CA7C241CB /* Pods-LocalizableControlsKitTests.debug.xcconfig */,
+				380469A2480C001047A6E0D7 /* Pods-LocalizableControlsKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B32E1BF12C414D4DD6BD11A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DACD3798C14733F279C49F17 /* Pods_LocalizableControlsKit.framework */,
+				17A5B74EE10F5B062075DFA5 /* Pods_LocalizableControlsKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC8CBB7921F102FC00D9575C = {
 			isa = PBXGroup;
 			children = (
 				DC8CBB8521F102FC00D9575C /* LocalizableControlsKit */,
 				DC8CBB9021F102FD00D9575C /* LocalizableControlsKitTests */,
 				DC8CBB8421F102FC00D9575C /* Products */,
+				3400F315F131B56D12262A15 /* Pods */,
+				B32E1BF12C414D4DD6BD11A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8CBB9721F102FD00D9575C /* Build configuration list for PBXNativeTarget "LocalizableControlsKit" */;
 			buildPhases = (
+				43F8FFC957C06D8EA4E2D37F /* [CP] Check Pods Manifest.lock */,
 				DC8CBB7E21F102FC00D9575C /* Headers */,
 				DC8CBB7F21F102FC00D9575C /* Sources */,
 				DC8CBB8021F102FC00D9575C /* Frameworks */,
@@ -122,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8CBB9A21F102FD00D9575C /* Build configuration list for PBXNativeTarget "LocalizableControlsKitTests" */;
 			buildPhases = (
+				C1B5B8EEEBE7832DF27428B0 /* [CP] Check Pods Manifest.lock */,
 				DC8CBB8821F102FD00D9575C /* Sources */,
 				DC8CBB8921F102FD00D9575C /* Frameworks */,
 				DC8CBB8A21F102FD00D9575C /* Resources */,
@@ -188,6 +222,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43F8FFC957C06D8EA4E2D37F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalizableControlsKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B5B8EEEBE7832DF27428B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalizableControlsKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC8CBB7F21F102FC00D9575C /* Sources */ = {
@@ -340,6 +421,7 @@
 		};
 		DC8CBB9821F102FD00D9575C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18461D41ED7CE0E5EE491D7C /* Pods-LocalizableControlsKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +447,7 @@
 		};
 		DC8CBB9921F102FD00D9575C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD7A192F34EDECA67B38B43 /* Pods-LocalizableControlsKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +473,7 @@
 		};
 		DC8CBB9B21F102FD00D9575C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F47FBAA0320331CA7C241CB /* Pods-LocalizableControlsKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7XT5CX637;
@@ -408,6 +492,7 @@
 		};
 		DC8CBB9C21F102FD00D9575C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380469A2480C001047A6E0D7 /* Pods-LocalizableControlsKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7XT5CX637;

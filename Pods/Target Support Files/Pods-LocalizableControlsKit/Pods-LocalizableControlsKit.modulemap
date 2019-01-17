@@ -1,0 +1,6 @@
+framework module Pods_LocalizableControlsKit {
+  umbrella header "Pods-LocalizableControlsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
