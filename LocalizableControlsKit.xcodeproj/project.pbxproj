@@ -12,6 +12,12 @@
 		DC8CBB8D21F102FD00D9575C /* LocalizableControlsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8CBB8321F102FC00D9575C /* LocalizableControlsKit.framework */; };
 		DC8CBB9221F102FD00D9575C /* LocalizableControlsKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBB9121F102FD00D9575C /* LocalizableControlsKitTests.swift */; };
 		DC8CBB9421F102FD00D9575C /* LocalizableControlsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8CBB8621F102FC00D9575C /* LocalizableControlsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC8CBBE621F10C2A00D9575C /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBBDF21F10C2A00D9575C /* String+Localized.swift */; };
+		DC8CBBE721F10C2A00D9575C /* LCTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBBE121F10C2A00D9575C /* LCTextView.swift */; };
+		DC8CBBE821F10C2A00D9575C /* LCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBBE221F10C2A00D9575C /* LCTextField.swift */; };
+		DC8CBBE921F10C2A00D9575C /* LCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBBE321F10C2A00D9575C /* LCButton.swift */; };
+		DC8CBBEA21F10C2A00D9575C /* LCTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBBE421F10C2A00D9575C /* LCTabBarItem.swift */; };
+		DC8CBBEB21F10C2A00D9575C /* LCLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBBE521F10C2A00D9575C /* LCLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,12 @@
 		DC8CBB8C21F102FD00D9575C /* LocalizableControlsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizableControlsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8CBB9121F102FD00D9575C /* LocalizableControlsKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableControlsKitTests.swift; sourceTree = "<group>"; };
 		DC8CBB9321F102FD00D9575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8CBBDF21F10C2A00D9575C /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		DC8CBBE121F10C2A00D9575C /* LCTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTextView.swift; sourceTree = "<group>"; };
+		DC8CBBE221F10C2A00D9575C /* LCTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTextField.swift; sourceTree = "<group>"; };
+		DC8CBBE321F10C2A00D9575C /* LCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCButton.swift; sourceTree = "<group>"; };
+		DC8CBBE421F10C2A00D9575C /* LCTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTabBarItem.swift; sourceTree = "<group>"; };
+		DC8CBBE521F10C2A00D9575C /* LCLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 		DC8CBB8521F102FC00D9575C /* LocalizableControlsKit */ = {
 			isa = PBXGroup;
 			children = (
+				DC8CBB9F21F108C700D9575C /* Sources */,
 				DC8CBB8621F102FC00D9575C /* LocalizableControlsKit.h */,
 				DC8CBB8721F102FC00D9575C /* Info.plist */,
 			);
@@ -116,6 +129,35 @@
 				DC8CBB9321F102FD00D9575C /* Info.plist */,
 			);
 			path = LocalizableControlsKitTests;
+			sourceTree = "<group>";
+		};
+		DC8CBB9F21F108C700D9575C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC8CBBE021F10C2A00D9575C /* Controls */,
+				DC8CBBDE21F10C2A00D9575C /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DC8CBBDE21F10C2A00D9575C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC8CBBDF21F10C2A00D9575C /* String+Localized.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC8CBBE021F10C2A00D9575C /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DC8CBBE121F10C2A00D9575C /* LCTextView.swift */,
+				DC8CBBE221F10C2A00D9575C /* LCTextField.swift */,
+				DC8CBBE321F10C2A00D9575C /* LCButton.swift */,
+				DC8CBBE421F10C2A00D9575C /* LCTabBarItem.swift */,
+				DC8CBBE521F10C2A00D9575C /* LCLabel.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +225,7 @@
 				TargetAttributes = {
 					DC8CBB8221F102FC00D9575C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					DC8CBB8B21F102FD00D9575C = {
 						CreatedOnToolsVersion = 10.1;
@@ -293,6 +336,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8CBBEB21F10C2A00D9575C /* LCLabel.swift in Sources */,
+				DC8CBBE821F10C2A00D9575C /* LCTextField.swift in Sources */,
+				DC8CBBE921F10C2A00D9575C /* LCButton.swift in Sources */,
+				DC8CBBE621F10C2A00D9575C /* String+Localized.swift in Sources */,
+				DC8CBBEA21F10C2A00D9575C /* LCTabBarItem.swift in Sources */,
+				DC8CBBE721F10C2A00D9575C /* LCTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18461D41ED7CE0E5EE491D7C /* Pods-LocalizableControlsKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -459,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pawellozinski.LocalizableControlsKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CD7A192F34EDECA67B38B43 /* Pods-LocalizableControlsKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -495,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F47FBAA0320331CA7C241CB /* Pods-LocalizableControlsKitTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7XT5CX637;
 				INFOPLIST_FILE = LocalizableControlsKitTests/Info.plist;
@@ -514,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 380469A2480C001047A6E0D7 /* Pods-LocalizableControlsKitTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7XT5CX637;
 				INFOPLIST_FILE = LocalizableControlsKitTests/Info.plist;
